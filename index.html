@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>JoKenPo</title>
+
+</head>
+
+<body>
+    <div> 
+        <h1>JoKenPo</h1>
+
+        <button id="BTpedra" type=submit
+            onclick="escolhaDoUsuario ('pedra')"><img src="./Pedra.png" id="Pedra"></button>
+        <button id="BTpapel" type=submit
+            onclick="escolhaDoUsuario ('papel')"><img src="./Papel.png" id="Papel"></button>
+        <button id="BTtesoura" type=submit
+            onclick="escolhaDoUsuario ('tesoura')"><img src="./Tesoura.png" id="Tesoura"></button>
+        <P id="resultado">Resultado.:</P>
+        <p id="minhaJogada">sua jogada</p>  
+        <p id="jogadaPc">jogada do PC</p>
+        <h2 id="pontuacao1">Sua pontuação: <span id="ponto1">0</span></h2>
+        <H2 id="pontuacao2">Pontuação do computador: <span id="ponto2">0</spa></H2>
+
+    </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    background-image: url(./Wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;}
+
+div {
+    background-color: #3279a0;
+    width: 400px;
+    height: 325px;
+    margin: auto;
+    margin-top: 250px;
+    position: sticky;
+    top: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);}
+
+h1 {
+    color: #adc5df;
+    padding-top: 15px;}
+
+#resultado {
+    width: 200px;
+    margin-left: 110px;
+    background-color: aliceblue;
+    border-radius: 10px;}
+
+#minhaJogada {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#jogadaPc { 
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;}
+
+#pontuacao1 {
+    color: #adc5df;
+    position: absolute;
+    bottom: 50px;
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 7px;}
+
+#pontuacao2 {
+    color: #adc5df;
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 7px;}
+
+#Pedra, #Papel, #Tesoura {
+    background-color: #337ea7;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px;
+    width: 80px;
+    display: inline-block;
+    transition: opacity 0.3s ease-in-out;}
+
+#BTpedra, #BTpapel, #BTtesoura {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;}
+
+button :hover {
+    opacity: 0.5; 
+    }
+
+button :active {
+    border: 10px solid rgb(9, 6, 158);}
+   
